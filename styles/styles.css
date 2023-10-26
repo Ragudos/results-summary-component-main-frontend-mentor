@@ -25,8 +25,8 @@
 }
 
 .avg-score-container {
-    width: min(32.5vmin, calc(var(--base-font-size) * 10));
-    height: min(32.5vmin, calc(var(--base-font-size) * 10));
+    width: calc(var(--base-font-size) * 12.5);
+    height: calc(var(--base-font-size) * 12.5);
 
     border-radius: 50%;
 
@@ -78,9 +78,9 @@
     height: 20px;
     width: 2px;
     background-color: hsl(var(--clr-dark-gray-blue));
-    transform: rotate(7.5deg);
+    transform: rotate(10deg);
 }
 
 .bold {
-    font-weight: 800;
+    font-weight: 700;
 }
