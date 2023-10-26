@@ -1,4 +1,9 @@
-const data = await fetch(location.origin + "/data.json");
+const data = await fetch(location.origin + "/data.json", {
+    headers: {
+        "Content-Type": "application/json"
+    },
+    method: "GET"
+});
 const json = await data.json();
 const averageScore = Math.floor((json.reduce((prev, curr) => {
     return prev + curr.score;
