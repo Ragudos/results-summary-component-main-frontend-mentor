@@ -25,8 +25,8 @@
 }
 
 .avg-score-container {
-    width: min(calc(var(--base-font-size) * 10), 50%);
-    height: min(calc(var(--base-font-size) * 10), 50%);
+    width: min(32.5vmin, calc(var(--base-font-size) * 10));
+    height: min(32.5vmin, calc(var(--base-font-size) * 10));
 
     border-radius: 50%;
 
