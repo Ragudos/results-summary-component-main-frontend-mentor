@@ -25,10 +25,9 @@
 }
 
 .avg-score-container {
-    width: clamp(
+    width: min(
         calc(var(--base-font-size) * 10),
-        60%,
-        auto
+        50%,
     );
 
     border-radius: 50%;
