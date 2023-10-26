@@ -57,7 +57,7 @@
     font-weight: 700;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1439px) {
     .card,
     .result-card,
     .feedback,
@@ -70,4 +70,17 @@
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+}
+
+.slanted-line {
+    display: block;
+
+    height: 20px;
+    width: 2px;
+    background-color: hsl(var(--clr-dark-gray-blue));
+    transform: rotate(7.5deg);
+}
+
+.bold {
+    font-weight: 800;
 }

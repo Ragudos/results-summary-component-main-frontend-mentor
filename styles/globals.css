@@ -219,11 +219,11 @@ main {
 }
 
 .big {
-    font-size: calc(var(--base-font-size) * 2);
+    font-size: calc(var(--base-font-size) * 1.75);
 }
 
 .huge {
-    font-size: calc(var(--base-font-size) * 3);
+    font-size: calc(var(--base-font-size) * 3.25);
 }
 
 h1 {
