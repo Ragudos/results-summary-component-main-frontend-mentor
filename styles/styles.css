@@ -25,14 +25,10 @@
 }
 
 .avg-score-container {
-    width: min(
-        calc(var(--base-font-size) * 10),
-        50%,
-    );
+    width: min(calc(var(--base-font-size) * 10), 50%);
+    height: min(calc(var(--base-font-size) * 10), 50%);
 
     border-radius: 50%;
-
-    aspect-ratio: 1/1;
 
     padding: inherit;
 }
