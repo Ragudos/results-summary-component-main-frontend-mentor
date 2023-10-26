@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preload" as="style" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/globals.css">
+  <link rel="stylesheet" href="./styles/colors.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <script src="./scripts/app.js" async type="module"></script>
+</head>
+
+<body>
+
+  <main>
+    <article class="card flex">
+      <div class="result-card royal-gradient items-center flex flex-col gap-half-and-one">
+        <h1 class="text-light-lavender">Your Result</h1>
+
+        <div class="avg-score-container persian-gradient flex flex-col gap-half">
+          <strong>
+            <div class="text-white huge" id="avg-score"></div>
+            <small class="text-light-lavender">of 100</small>
+          </strong>
+        </div>
+
+        <div class="feedback flex flex-col items-center justify-center gap-half-and-one">
+          <div class="text-white big">
+            <strong>Great</strong>
+          </div>
+
+          <p class="text-light-lavender">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary-card flex flex-col gap-half-and-one justify-between">
+        <div class="flex flex-col gap-half-and-one">
+          <h2 id="summary-title">Summary</h2>
+
+        <section class="flex flex-col gap" id="section-of-summary" aria-labelledby="summary-title">   
+        </section>
+
+        </div>
+
+        <button
+          type="button"
+          style="margin-bottom: calc(4px + 0.5ex);"
+        >
+          Continue
+        </button>
+      </div>
+    </article>
+  </main>
+  <!-- 
+  Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue -->
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+
+</html>
